@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-  baseURL: "https://localhost/api",
+  baseURL: "https://ims-vnq-duf3hcguh0b0gwgx.southeastasia-01.azurewebsites.net/api",
   withCredentials: true
 });
 
